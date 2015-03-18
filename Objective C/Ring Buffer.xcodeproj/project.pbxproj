@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5148B5C148EA54300176294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5148B5B148EA54300176294 /* Foundation.framework */; };
+		B5148B5F148EA54300176294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5148B5E148EA54300176294 /* main.m */; };
+		B5148B63148EA54300176294 /* Ring_Buffer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5148B62148EA54300176294 /* Ring_Buffer.1 */; };
+		B5148B6B148EA5F900176294 /* ReferenceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5148B6A148EA5F900176294 /* ReferenceImplementation.m */; };
+		B5148B6E148EA61300176294 /* RingBufferImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5148B6D148EA61300176294 /* RingBufferImplementation.m */; };
+		B5148B70148EC23E00176294 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5148B6F148EC23E00176294 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5148B55148EA54300176294 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B5148B63148EA54300176294 /* Ring_Buffer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5148B57148EA54300176294 /* Ring Buffer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ring Buffer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5148B5B148EA54300176294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5148B5E148EA54300176294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5148B61148EA54300176294 /* Ring Buffer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ring Buffer-Prefix.pch"; sourceTree = "<group>"; };
+		B5148B62148EA54300176294 /* Ring_Buffer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ring_Buffer.1; sourceTree = "<group>"; };
+		B5148B69148EA5F900176294 /* ReferenceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceImplementation.h; sourceTree = "<group>"; };
+		B5148B6A148EA5F900176294 /* ReferenceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceImplementation.m; sourceTree = "<group>"; };
+		B5148B6C148EA61300176294 /* RingBufferImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBufferImplementation.h; sourceTree = "<group>"; };
+		B5148B6D148EA61300176294 /* RingBufferImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingBufferImplementation.m; sourceTree = "<group>"; };
+		B5148B6F148EC23E00176294 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5148B54148EA54300176294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5148B5C148EA54300176294 /* Foundation.framework in Frameworks */,
+				B5148B70148EC23E00176294 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5148B4C148EA54300176294 = {
+			isa = PBXGroup;
+			children = (
+				B5148B5D148EA54300176294 /* Ring Buffer */,
+				B5148B5A148EA54300176294 /* Frameworks */,
+				B5148B58148EA54300176294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5148B58148EA54300176294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5148B57148EA54300176294 /* Ring Buffer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5148B5A148EA54300176294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5148B6F148EC23E00176294 /* CoreServices.framework */,
+				B5148B5B148EA54300176294 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5148B5D148EA54300176294 /* Ring Buffer */ = {
+			isa = PBXGroup;
+			children = (
+				B5148B5E148EA54300176294 /* main.m */,
+				B5148B62148EA54300176294 /* Ring_Buffer.1 */,
+				B5148B60148EA54300176294 /* Supporting Files */,
+				B5148B69148EA5F900176294 /* ReferenceImplementation.h */,
+				B5148B6A148EA5F900176294 /* ReferenceImplementation.m */,
+				B5148B6C148EA61300176294 /* RingBufferImplementation.h */,
+				B5148B6D148EA61300176294 /* RingBufferImplementation.m */,
+			);
+			path = "Ring Buffer";
+			sourceTree = "<group>";
+		};
+		B5148B60148EA54300176294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5148B61148EA54300176294 /* Ring Buffer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5148B56148EA54300176294 /* Ring Buffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5148B66148EA54300176294 /* Build configuration list for PBXNativeTarget "Ring Buffer" */;
+			buildPhases = (
+				B5148B53148EA54300176294 /* Sources */,
+				B5148B54148EA54300176294 /* Frameworks */,
+				B5148B55148EA54300176294 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ring Buffer";
+			productName = "Ring Buffer";
+			productReference = B5148B57148EA54300176294 /* Ring Buffer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5148B4E148EA54300176294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B5148B51148EA54300176294 /* Build configuration list for PBXProject "Ring Buffer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5148B4C148EA54300176294;
+			productRefGroup = B5148B58148EA54300176294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5148B56148EA54300176294 /* Ring Buffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5148B53148EA54300176294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5148B5F148EA54300176294 /* main.m in Sources */,
+				B5148B6B148EA5F900176294 /* ReferenceImplementation.m in Sources */,
+				B5148B6E148EA61300176294 /* RingBufferImplementation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5148B64148EA54300176294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5148B65148EA54300176294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5148B67148EA54300176294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ring Buffer/Ring Buffer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5148B68148EA54300176294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ring Buffer/Ring Buffer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5148B51148EA54300176294 /* Build configuration list for PBXProject "Ring Buffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5148B64148EA54300176294 /* Debug */,
+				B5148B65148EA54300176294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5148B66148EA54300176294 /* Build configuration list for PBXNativeTarget "Ring Buffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5148B67148EA54300176294 /* Debug */,
+				B5148B68148EA54300176294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5148B4E148EA54300176294 /* Project object */;
+}
