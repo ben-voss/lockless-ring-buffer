@@ -1,7 +1,8 @@
-
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = “Ring Buffer”, “Ring Buffer\Ring Buffer.csproj", "{887EE5A1-237F-4290-AE0D-7919FA30E940}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ring Buffer", "Ring Buffer\Ring Buffer.csproj", "{887EE5A1-237F-4290-AE0D-7919FA30E940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +14,9 @@ Global
 		{887EE5A1-237F-4290-AE0D-7919FA30E940}.Debug|x86.Build.0 = Debug|x86
 		{887EE5A1-237F-4290-AE0D-7919FA30E940}.Release|x86.ActiveCfg = Release|x86
 		{887EE5A1-237F-4290-AE0D-7919FA30E940}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Ring Buffer\Ring Buffer.csproj
